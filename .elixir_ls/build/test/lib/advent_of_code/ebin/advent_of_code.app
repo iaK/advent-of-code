@@ -1,0 +1,13 @@
+{application,advent_of_code,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"advent_of_code"},
+              {modules,['Elixir.AdventOfCode',
+                        'Elixir.AdventOfCode.Day1.FuelUsageCalculator',
+                        'Elixir.AdventOfCode.Day1.Part1',
+                        'Elixir.AdventOfCode.Day1.Part2',
+                        'Elixir.AdventOfCode.Day2.Part1',
+                        'Elixir.AdventOfCode.Day2.Part2',
+                        'Elixir.AdventOfCode.Day3.Part1',
+                        'Elixir.AdventOfCode.FileReader']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
