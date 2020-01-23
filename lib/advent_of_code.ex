@@ -40,9 +40,18 @@ defmodule AdventOfCode do
   @doc """
     ## Examples
         iex> AdventOfCode.day_3_part_1()
-        3749
+        303
   """
   def day_3_part_1 do
-    AdventOfCode.Day3.Part1.cross_point(FileReader.get_input("lib/day_3/input.txt"))
+    AdventOfCode.Day3.CrossedWires.closest_cross_point(FileReader.get_input("lib/day_3/input.txt"))
+  end
+
+  @doc """
+    ## Examples
+        iex> AdventOfCode.day_3_part_2()
+        303
+  """
+  def day_3_part_2 do
+    AdventOfCode.Day3.CrossedWires.cross_point_with_least_steps(FileReader.get_input("lib/day_3/input.txt"))
   end
 end

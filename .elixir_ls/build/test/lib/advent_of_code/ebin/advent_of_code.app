@@ -7,7 +7,11 @@
                         'Elixir.AdventOfCode.Day1.Part2',
                         'Elixir.AdventOfCode.Day2.Part1',
                         'Elixir.AdventOfCode.Day2.Part2',
-                        'Elixir.AdventOfCode.Day3.Part1',
+                        'Elixir.AdventOfCode.Day3.CrossedWires',
+                        'Elixir.AdventOfCode.Day3.Line',
+                        'Elixir.AdventOfCode.Day3.Point',
+                        'Elixir.AdventOfCode.Day4.Password',
+                        'Elixir.AdventOfCode.Day5.Test',
                         'Elixir.AdventOfCode.FileReader']},
               {registered,[]},
               {vsn,"0.1.0"}]}.
